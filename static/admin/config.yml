@@ -8,12 +8,6 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-# local_backend:
-#   # when using a custom proxy server port
-#   url: http://localhost:8889/api/v1
-#   # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
-#   allowed_hosts: ['127.0.0.1']
-
 media_folder: static/img
 public_folder: /img
 
