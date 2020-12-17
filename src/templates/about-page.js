@@ -42,7 +42,7 @@ const AboutPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
-        description={frontmatter.description}
+        description={post.frontmatter.description}
       />
     </Layout>
   )
